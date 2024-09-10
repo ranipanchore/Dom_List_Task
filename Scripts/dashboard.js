@@ -76,9 +76,16 @@ function filterPriority(){
             {
                 return el
             }
+            
         })
-        // console.log(filterArray)
-        display(filterArray);
+        if(selectPriorityData.value == "Select Priority"){
+            display(dashboard_data);
+        }
+        else{
+            display(filterArray);
+        }
+           
+        
 }
 
 
