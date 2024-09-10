@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   <link rel="stylesheet" href="./Styles/navbar.css">
+   <link rel="stylesheet" href="./Styles/index.css">
+   
+</head>
+<body>
+
+    <div id="nav">
+        <div>
+            <span>Navbar</span>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="./">Home</a></li>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="progress.html">In-Progress</a></li>
+                <li><a href="Done.html">Done</a></li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    
+    <div id="task_form">
+        <div>
+            <h2>Create A Task</h2>
+        </div>
+        <form >
+            <input  type="text" id="name"/> <br/><br/>
+            <input  type="text" id="des"/><br/><br/>
+            <div>Start Date:-</div> 
+            <input  type="date" id="start_date"/><br/><br/>
+            <div>End Date:-</div> 
+            <input type="date" id="End_date"/><br/><br/>
+            <select  id="priority">
+                <option value="Select Priority">Select Priority</option>
+                <option value="High">High</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+            </select><br/><br/> 
+            <input type="submit"/>
+        </form>
+    </div>
+</body>
+</html>
+<script src="./Scripts/index.js"></script>

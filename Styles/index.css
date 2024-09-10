@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#task_form{
+    text-align: center;
+    border: 2px solid rgba(149, 157, 165, 0.2);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+}
+#task_form> div >h2{
+    padding:14px
+}
+#task_form> form >input{
+    font-size: x-large;
+}
+#task_form> form >input[type=submit]{
+    font-size: x-large;
+    width: 71%;
+    margin: 15px 15px;
+}
+#task_form> form >select{
+    font-size: x-large;
+    width: 71%;
+}
+#task_form>form>div{
+    width: 20%;
+    margin-left: 56px;
+}

@@ -1,0 +1,25 @@
+#task_table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+form > select{
+    width: 20%;
+    padding: 8px 0px;
+    font-size: medium;
+}
+#task_table>div{
+    padding: 12px 0px;
+    font-size: larger;
+}
+#task_table>table{
+    margin: auto;
+}
+
+#task_table>table>thead>tr{
+    background-color: #ffd64d;
+    color: black !important;
+}
+#task_table>table>thead>tr>td{
+    padding: 12px;
+}

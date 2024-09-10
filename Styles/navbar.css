@@ -1,0 +1,31 @@
+#nav{
+    border: 2px solid rgba(149, 157, 165, 0.2);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0px 20px;
+    position: sticky;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+}
+#nav>div{
+   
+}
+#nav>div>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+#nav>div>ul>li{
+    padding: 0px 22px;
+}
+#nav>div>ul>li>a{
+   text-decoration: none;
+}
+#nav>div>ul>li>a:hover{
+   color: aqua;
+ }
